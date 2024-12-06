@@ -1,0 +1,38 @@
+body {
+    background-color: #24353F;
+}
+
+.data {
+    height: 75vh;
+    box-shadow: 5px 2px 40px 10px rgba(0, 0, 0, 0.63);
+    color: #999;
+}
+
+h1 {
+    color: #17A2B8;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    background-color: #24353F;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #999 !important;
+}
+
+.btn {
+    width: 100% !important;
+    margin-top: 30px;
+    color: #999;
+    border: var(--bs-btn-border-width) solid #a2c0c5;
+    background-color: #24353F;
+    --bs-btn-hover-border-color: #17A2B8;
+    margin-bottom: 20px;
+
+}
+
+.requiredInput {
+    color: red;
+}
